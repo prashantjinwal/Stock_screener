@@ -9,7 +9,7 @@ export default function HoldingCard({
 }) {
   return (
     <View className="bg-[#1A1F2B] rounded-2xl px-5 py-4 mb-4 flex-row justify-between items-center">
-      {/* Left */}
+      
       <View>
         <Text className="text-white text-lg font-bold">
           {symbol}
@@ -19,7 +19,7 @@ export default function HoldingCard({
         </Text>
       </View>
 
-      {/* Right */}
+     
       <View className="items-end">
         <Text className="text-white text-lg font-semibold">
           {price}

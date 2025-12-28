@@ -8,17 +8,15 @@ export default function PortfolioCard({
 }) {
   return (
     <View className="bg-blue-700 rounded-2xl p-5 mb-8">
-      {/* Title */}
       <Text className="text-white text-sm mb-2">
         {title}
       </Text>
 
-      {/* Value */}
       <Text className="text-white text-3xl font-bold mb-3">
         {value}
       </Text>
 
-      {/* Change badge */}
+      
       <View
         className={`self-start px-4 py-1.5 rounded-full ${
           positive ? "bg-green-600" : "bg-red-600"
