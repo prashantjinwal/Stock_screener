@@ -3,10 +3,13 @@ import { Ionicons } from '@expo/vector-icons';
 
 // agar ye project apko acha lage toh mujhe bhi hire kar skte ho :- https://github.com/prashantjinwal
 
-import Home from 'components/Home'
+// import Home from 'components/Home'
 import MarketAI from 'components/MarketAi';
 import Portfolio from 'components/Portfolio'
 import Profile from 'components/Porfile'
+
+// temp 
+import ResultsScreen from 'components/ResultScreen';
 
 
 
@@ -39,7 +42,7 @@ export default function TabNavigator() {
         },
       })}
     >
-      <Tab.Screen name="Home" component={Home} />
+      <Tab.Screen name="Home" component={ResultsScreen} />
       <Tab.Screen name="MarketAI" component={MarketAI} />
       <Tab.Screen name="Portfolio" component={Portfolio} />
       <Tab.Screen name="Profile" component={Profile} />
